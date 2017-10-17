@@ -1,0 +1,143 @@
+body { padding-top: 50px !important; }
+
+.my-4 {
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-top: 2px solid #2c4c3b;
+}
+
+.stripe {
+    border-left:1px solid #2c4c3b
+}
+
+.character {
+    padding: 1rem;
+    font-family: Aller;
+}
+
+.languages{
+    margin-left: 2rem;
+}
+
+.header-jumbotron {
+    padding: 10rem !important;
+    background: url('../img/jumbotron.jpg') no-repeat;
+    background-size: auto 29rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron-text {
+    text-align: right;
+    color: white;
+    margin: 0 auto;
+    font-family: Aller;
+}
+
+.jumbotron-box {
+  width: 30px;
+  height: 60px;
+  border-left: solid 30px rgb(200,30,50);
+  border-bottom: solid 30px transparent;
+  border-top: solid 30px transparent;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+    color: #2c4c3b !important;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.navbar-brand > img {
+    margin-left: 5rem;
+}
+
+.left-img {
+    transform: rotate(225deg);
+    color: white;
+}
+
+.right-img {
+    transform: rotate(45deg);
+    color: white;
+}
+
+.dark-green {
+    color: #2c4c3b;
+}
+
+.light-green {
+    color: #238541;
+}
+
+.introduction {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.client-group {
+    padding: 1.5rem;
+}
+
+.ask-proposal {
+    margin-top: 4rem;
+    background: #2c4c3b;
+    padding: 1rem !important;
+}
+
+.proposal-text {
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.proposal-text a {
+    color: white;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-family: Aller;
+}
+
+.proposal-text a:hover {
+    color: white;
+    text-decoration: none !important
+    font-weight: 600;
+}
+
+.vacancies {
+    margin-top: 4rem;
+    background: #256740;
+    padding: 1rem !important;
+}
+
+.carousel-caption {
+    padding: 0 !important;
+    bottom: 50% !important;
+    color: #2c4c3b !important;
+    font-family: Aller;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background: url('../img/jumbotron.jpg') no-repeat;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+}
+
+.info {
+    margin-top: 1rem !important;
+    margin-right: 3rem;
+    font-family: Aller;
+}
+
+
+

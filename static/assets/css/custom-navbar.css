@@ -1,0 +1,6 @@
+/* change the background color */
+.navbar {
+    background-color: white;
+    font-family: Aller;
+    box-shadow: 2.5px 4.33px 57px 0px rgb( 4, 5, 5 );
+}
