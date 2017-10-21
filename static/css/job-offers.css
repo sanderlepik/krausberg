@@ -84,11 +84,11 @@
   padding: 0 !important;
   height: 60px;
   background: white;
-  color: black;
+  color: rgba(44, 76, 59, 1);
 }
 
 .send-contact a {
-  color: black;
+  color: rgba(44, 76, 59, 1);
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -97,7 +97,7 @@
 }
 
 .send-contact a:hover {
-  color: black;
+  color: rgba(44, 76, 59, 1);
   text-decoration: none !important font-weight: 600;
 }
 
@@ -114,7 +114,6 @@
   top: 0;
   border-top: green solid 3px;
   border-left: green solid 3px;
-  color:black;
 }
 
 #contact::after {
@@ -125,7 +124,7 @@
 }
 
 #contact:hover {
-  color: black;
+  color: rgba(44, 76, 59, 1);
 }
 
 #contact:hover::before {
