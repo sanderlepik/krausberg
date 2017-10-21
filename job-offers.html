@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Krausberg hooldusteenindus</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom navbar -->
+  <link href="static/css/custom-navbar.css" rel="stylesheet">
+
+  <!-- Custom css -->
+  <link href="static/css/custom.css" rel="stylesheet">
+
+  <!-- Custom css -->
+  <link href="static/css/job-offers.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/starter-template.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light navbar-toggleable-md fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="#">
+        <img src="static/img/logo.png" class="d-inline-block align-top krausberg-logo" alt="">
+    </a>
+    <!--a class="navbar-brand page-scroll" href="#first"><img src="../assets/img/logo.png" /></a-->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">TEENUSED<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">KÜSI PAKKUMIST<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">TULE TÖÖLE<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">MEIST<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active contact">
+          <a class="nav-link" href="#">KONTAKT<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active stripe"></li>
+
+        <li class="nav-item active languages my-auto">
+          <form class="lang-form" method="post">
+            <input name="next" type="hidden" value="{{ redirect_to }}" />
+            <select class="bootstrap-select form-control lang-select" name="language" onChange="form.submit();">
+                        <option value="EST" selected="selected">
+                            EST
+                        </option>
+                    </select>
+          </form>
+        </li>
+        <!-- <li class="nav-item active languages my-auto">
+          <form class="lang-form" action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ redirect_to }}" />
+            <select class="bootstrap-select form-control lang-select" name="language" onChange="form.submit();">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                        <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %}
+                                selected="selected" {% endif %}>
+                            {{ language.code }}
+                        </option>
+                        {% endfor %}
+                    </select>
+          </form>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container container-job-offerings">
+
+    <!-- first row of job offers -->
+    <div class="row job-offerings-row">
+
+      <!-- job offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- end of row -->
+
+    <!-- first row of job offers -->
+    <div class="row job-offerings-row">
+
+      <!-- job offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- end of row -->
+
+    <!-- first row of job offers -->
+    <div class="row job-offerings-row">
+
+      <!-- job offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- job-offer -->
+      <div class="col-md-3 offer-col">
+        <div class="row offer-row">
+          <div class="col-12 card-img" style="background-image: url('static/img/Teenuse_pilt_1.png');">
+            <div class="row card-text-row">
+              <div class="col-md-12 col-centered">
+                <span class="card-subheading">Krausberg otsib</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-centered">
+                <span class="card-heading light-green"><strong>Tootmisjuhti</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-block">
+            <div class="container-fluid full-width-container container-proposal vacancies">
+              <div class="row offer-button mx-auto my-auto">
+                <span id="jumbo" class="display-5 dark-green proposal-text check-offerings"><a href="job-offers.html">VAATA TÖÖKUULUTUSI</a></span>
+              </div>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- end of row -->
+
+  </div>
+  <!-- end of container -->
+
+  <footer>
+    <div class="row vdivide-footer footer">
+      <div class="col-sm-3 text-center footer-text">
+        <h4 class="footer-text-h4">+372 6391777</h4></div>
+      <div class="col-sm-3 text-center footer-text">
+        <h4 class="footer-text-h4">krausberg@krausberg.ee</h4></div>
+      <div class="col-sm-3 text-center footer-text">
+        <h4 class="footer-text-h4">OÜ Krausberg Eesti</h4></div>
+    </div>
+  </footer>
+
+</body>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script>
+  window.jQuery || document.write('<script src="static/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="static/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+  $(".dropdown-menu li a").click(function() {
+    $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+  });
+</script>
+
+</body>
+
+</html>

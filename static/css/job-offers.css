@@ -1,0 +1,76 @@
+.container-job-offerings {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-block {
+    padding: 0 !important;
+}
+
+.vacancies {
+  height: 70px;
+  padding: 10px;
+}
+
+.ask-proposal {
+  height: 60px;
+}
+
+#jumbo {
+  height: 100%;
+  font-size: 15px;
+}
+
+.col-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-offerings-row {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-col {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.offer-row {
+  height: 250px;
+}
+
+.card-text-row {
+  margin-top: 100px !important;
+}
+
+.card-img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  min-height: 250px;
+}
+
+.card-subheading {
+  font-size: 13px;
+}
+
+.card-heading {
+  font-size: 20px;
+}
+
+.card-block {
+  width: 100%;
+}
+
+.offer-button {
+  width: 98%;
+}
+
+.card-text {
+  margin-bottom: 50px !important;
+}

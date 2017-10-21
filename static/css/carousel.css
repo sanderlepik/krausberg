@@ -31,6 +31,7 @@
 }
 
 .carousel-control-next-icon {
+  margin-bottom: 20%
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
@@ -39,6 +40,7 @@
 }
 
 .carousel-control-prev-icon {
+  margin-bottom: 20%
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
