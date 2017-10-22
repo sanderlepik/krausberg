@@ -332,9 +332,16 @@ body {
   border-top: 2px solid #2c4c3b;
 }
 
+/*input form*/
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  opacity: 0.3 !important;
+}
+
 .contact-container {
   height: auto;
-  margin-top: 100px;
+  margin-top: 150px;
   padding-bottom: 10rem;
 }
 
@@ -349,7 +356,7 @@ body {
 .form-message-input {
   height: 135px;
   width: 100%;
-  padding: 27.5px;
+  padding: 15px;
   border: #256740 solid 2.5px;
 }
 
@@ -382,11 +389,11 @@ body {
 .footer-text {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
-.footer-text-h4 {
-  font-weight: 100;
-}
+.footer-text-h4 {}
 
 .info {
   margin-top: 1rem !important;
@@ -403,7 +410,7 @@ body {
 }
 
 .icon-row {
-  margin-top: 80px !important;
+  margin-top: 90px !important;
 }
 
 .icon-col {
@@ -419,21 +426,56 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   /*align-items: center;
   display: flex;
   justify-content: center;*/
   height: 350px;
   min-height: 350px;
-  border: #256740 solid 1px;
+  /*border: #256740 solid 1px;*/
 }
 
-.square {
+.square-img a span {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* edit: added z-index */
+  z-index: 1;
+}
+
+.container-proposal a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* edit: added z-index */
+  z-index: 1;
+}
+
+#square::before, #square::after {
+  width: 15px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  transition: 0.5s ease all;
+}
+
+#square::before {
   left: 0;
   top: 0;
-  color: blue;
-  width: 30px;
-  height: 30px;
+  border-top: green solid 3px;
+  border-left: green solid 3px;
+}
+
+#square::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: green solid 3px;
+  border-right: green solid 3px;
 }
 
 .square-text {
@@ -537,7 +579,7 @@ body {
 /* CAROUSEL */
 
 .carousel-container {
-  height: 275px;
+  height: 200px;
 }
 
 .carousel-inner {
@@ -548,7 +590,7 @@ body {
 }
 
 .carousel-control-next-icon {
-  margin-right:20%;
+  margin-right: 20%;
   margin-bottom: 20%;
   width: 0;
   height: 0;
@@ -625,7 +667,7 @@ body {
   font-size: 20px;
 }
 
-.check-offerings{
+.check-offerings {
   width: 300px !important;
 }
 
