@@ -22,6 +22,9 @@
   <!-- Custom styles for this template -->
   <link href="static/css/starter-template.css" rel="stylesheet">
 
+  <!-- open sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 
 <body>
@@ -38,24 +41,24 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item my-auto active">
           <a class="nav-link" href="#">TEENUSED<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item my-auto active">
           <a class="nav-link" href="#">KÜSI PAKKUMIST<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item my-auto active">
           <a class="nav-link" href="#">TULE TÖÖLE<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item my-auto active">
           <a class="nav-link" href="#">MEIST<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active contact">
+        <li class="nav-item my-auto active contact">
           <a class="nav-link" href="#">KONTAKT<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active stripe"></li>
+        <li class="nav-item my-auto active stripe"></li>
 
-        <li class="nav-item active languages my-auto">
+        <li class="nav-item my-auto active languages my-auto">
           <form class="lang-form" method="post">
             <input name="next" type="hidden" value="{{ redirect_to }}" />
             <select class="bootstrap-select form-control lang-select" name="language" onChange="form.submit();">
@@ -191,8 +194,8 @@
             <h3 class="dark-green job-offer-heading">OTSID TÖÖD?</h3>
           </div>
           <div class="col-md-6 my-auto">
-            <p class="job-offer-text light-green text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span class="job-offer-text light-green text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
           </div>
         </div>
       </div>
@@ -210,9 +213,17 @@
     <div class="group-carousel-introduction">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <img class="carousel-intro-img" src="static/img/mountains.png" />
-          <p class="carousel-introduction-text light-green text-justify mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="carousel-intro-img" src="static/img/mountains.png"></img>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="carousel-introduction-text light-green text-justify mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

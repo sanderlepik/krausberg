@@ -1,3 +1,7 @@
+span{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .container-job-offerings {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -69,14 +73,11 @@
 
 .card-block {
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .offer-button {
   width: 98%;
-}
-
-.card-text {
-  margin-bottom: 50px !important;
 }
 
 .send-contact {

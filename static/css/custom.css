@@ -53,9 +53,13 @@ body {
   justify-content: left;
 }
 
+span{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .character {
   padding: 1rem;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .languages {
@@ -70,6 +74,7 @@ body {
   font-weight: bold;
   border: 0px;
   outline: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron-header {
@@ -89,7 +94,7 @@ body {
   color: white;
   margin: 0 auto;
   margin-top: 180px;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron-box {
@@ -109,7 +114,7 @@ body {
   color: #2c4c3b !important;
   font-weight: 600;
   margin-right: 2rem;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-brand {
@@ -223,7 +228,7 @@ body {
 .proposal-text a {
   color: white;
   text-decoration: none !important;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .proposal-text a:hover {
@@ -241,7 +246,7 @@ body {
   padding: 0 !important;
   bottom: 50% !important;
   color: #2c4c3b !important;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .slide {
@@ -363,7 +368,7 @@ body {
 .form-btn {
   width: 100%;
   height: 50px;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
   background-color: #256740;
   color: white;
   border: #256740 solid 1px;
@@ -398,7 +403,7 @@ body {
 .info {
   margin-top: 1rem !important;
   margin-right: 3rem;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .square-row {
@@ -498,13 +503,17 @@ body {
 }
 
 #square:hover::after {
-  right: 100px;
-  bottom: 100px;
+  /*right: 70px;
+  bottom: 70px;*/
+  right: 20%;
+  bottom: 30%;
 }
 
 #square:hover::before {
-  left: 100px;
-  top: 100px;
+  /*left: 70px;
+  top: 70px;*/
+  left: 20%;
+  top: 27%;
 }
 
 .square-text {
