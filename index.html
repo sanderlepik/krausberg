@@ -42,19 +42,19 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item my-auto active">
-          <a class="nav-link" href="#">TEENUSED<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="services.html">TEENUSED<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item my-auto active">
-          <a class="nav-link" href="#">KÜSI PAKKUMIST<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html#contact-form">KÜSI PAKKUMIST<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item my-auto active">
-          <a class="nav-link" href="#">TULE TÖÖLE<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="job-offers.html">TULE TÖÖLE<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item my-auto active">
-          <a class="nav-link" href="#">MEIST<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about-us">MEIST<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item my-auto active contact">
-          <a class="nav-link" href="#">KONTAKT<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#contact">KONTAKT<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item my-auto active stripe"></li>
 
@@ -62,11 +62,17 @@
           <form class="lang-form" method="post">
             <input name="next" type="hidden" value="{{ redirect_to }}" />
             <select class="bootstrap-select form-control lang-select" name="language" onChange="form.submit();">
-                        <option value="EST" selected="selected">
-                            EST
-                        </option>
-                    </select>
+              <option value="EE" selected="selected">EE</option>
+              <option value="EN">EN</option>
+              <option value="RU">RU</option>
+            </select>
           </form>
+        </li>
+        <li class="nav-item my-auto active">
+          <a class="nav-link" href="https://www.facebook.com/Krausberg-Eesti-267233386650876/">
+            <img class="fb-img" src="static/img/fb-header.png"></img>
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <!-- <li class="nav-item active languages my-auto">
           <form class="lang-form" action="{% url 'set_language' %}" method="post">
@@ -105,10 +111,10 @@
 
   <div class="container introduction-container">
 
-    <div class="row vdivide group-characteristics">
+    <div class="row group-characteristics">
       <div class="col-sm-2 text-center">
         <span>MUGAV</span></div>
-      <div class="col-sm-2 text-center">
+      <div class="col-sm-2 text-center borders">
         <span>KVALITEETNE</span></div>
       <div class="col-sm-2 text-center">
         <span>PAINDLIK</span></div>
@@ -192,6 +198,7 @@
         <div class="row">
           <div class="col-md-6 job-offer my-auto">
             <h3 class="dark-green job-offer-heading">OTSID TÖÖD?</h3>
+            <hr width="1" size="500">
           </div>
           <div class="col-md-6 my-auto">
             <span class="job-offer-text light-green text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -210,7 +217,7 @@
   </div>
 
   <div class="container">
-    <div class="group-carousel-introduction">
+    <div class="group-carousel-introduction" id="about-us">
       <div class="row">
         <div class="col-md-6 mx-auto">
           <div class="row">
@@ -274,7 +281,7 @@
   <hr class="carousel-separator">
 
   <form>
-    <div class="container contact-container">
+    <div class="container contact-container" id="contact-form">
       <div class="row contact-sentence-row text-center">
         <div class="col-xs-12 col-md-9 col-lg-9 col-xl-9">
           <h5 class="call-to-action">CALL TO ACTION LAUSE, PIKKUSEST SÕLTUB PAIGUTUS!</h5>
@@ -317,14 +324,28 @@
     </div>
   </form>
 
-  <footer>
-    <div class="row vdivide-footer footer">
+  <footer id="contact">
+    <div class="row footer">
       <div class="col-sm-2 text-center footer-text">
         <span class="footer-text-h4">+372 6391777</span></div>
-      <div class="col-sm-3 text-center footer-text">
+      <div class="col-sm-3 text-center footer-text footer-center">
         <span class="footer-text-h4">krausberg@krausberg.ee</span></div>
       <div class="col-sm-2 text-center footer-text">
         <span class="footer-text-h4">OÜ Krausberg Eesti</span></div>
+      <div class="col-sm-2 text-center ml-auto fb">
+        JÄLGI MEID
+        <a href="https://www.facebook.com/Krausberg-Eesti-267233386650876/">
+          <img class="fb-img" src="static/img/fb.png"></img>
+        </a>
+        <!-- <div class="row">
+          <div class="col-auto">
+            JÄLGI<br>MEID
+          </div>
+          <div class="col-auto">
+            <img class="fb-img" src="static/img/fb.png"></img>
+          </div>
+        </div> -->
+      </div>
     </div>
   </footer>
 
