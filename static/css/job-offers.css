@@ -102,7 +102,7 @@ span{
   text-decoration: none !important font-weight: 600;
 }
 
-/*#contact::before, #contact::after {
+#send-contact::before, #send-contact::after {
   width: 10px;
   height: 10px;
   content: "";
@@ -110,31 +110,31 @@ span{
   transition: 0.5s ease all;
 }
 
-#contact::before {
+#send-contact::before {
   left: 0;
   top: 0;
   border-top: green solid 3px;
   border-left: green solid 3px;
-}*/
+}
 
-#contact::after {
+#send-contact::after {
   bottom: 0;
   right: 0;
   border-bottom: green solid 3px;
   border-right: green solid 3px;
 }
 
-#contact:hover {
+#send-contact:hover {
   color: rgba(44, 76, 59, 1);
 }
 
-#contact:hover::before {
+#send-contact:hover::before {
   left: 10px;
   top: 10px;
   color: black;
 }
 
-#contact:hover::after {
+#send-contact:hover::after {
   right: 10px;
   bottom: 10px;
   color: black;

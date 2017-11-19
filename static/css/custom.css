@@ -793,9 +793,18 @@ span {
   width: 25px;
 }
 
+.footer div a {
+  height: 25px;
+}
 
 /* MOBILE */
 @media (max-width: 990px) {
+
+  /* navbar aligned center in mobile*/
+  .navbar-brand {
+    height: 100%;
+    margin-left: 0;
+  }
 
   /*remove borders*/
   .borders {
