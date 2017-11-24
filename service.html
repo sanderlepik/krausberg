@@ -129,24 +129,25 @@
     </div>
   </div>
 
-  <footer id="contact">
-    <div class="row footer">
-      <div class="col-sm-2 text-center footer-text">
-        <span class="footer-text-h4">+372 6391777</span></div>
-      <div class="col-sm-3 text-center footer-text footer-center">
-        <span class="footer-text-h4">krausberg@krausberg.ee</span></div>
-      <div class="col-sm-2 text-center footer-text">
-        <span class="footer-text-h4">OÜ Krausberg Eesti</span></div>
-      <div class="col-sm-2 text-center ml-auto fb">
-        JÄLGI MEID
-        <a href="https://www.facebook.com/Krausberg-Eesti-267233386650876/">
-          <img class="fb-img" src="static/img/fb.png"></img>
-        </a>
-      </div>
-    </div>
-  </footer>
 
-</body>
+<div class="row footer">
+  <div class="col-sm-2 col-xl-2 text-center group-footer-text my-auto">
+    <img class="fb-img" src="static/img/fb.png"></img>
+    <span class="footer-text">+372 6391777</span></div>
+  <div class="col-sm-3 col-xl-2 text-center group-footer-text footer-center my-auto">
+    <img class="fb-img" src="static/img/fb.png"></img>
+    <span class="footer-text">krausberg@krausberg.ee</span></div>
+  <div class="col-sm-2 col-xl-2 text-center group-footer-text my-auto">
+    <span class="footer-text">OÜ Krausberg Eesti</span></div>
+  <div class="col-sm-2 text-center ml-auto fb">
+    JÄLGI<br />MEID
+    <a href="https://www.facebook.com/Krausberg-Eesti-267233386650876/">
+        <img class="fb-img" src="static/img/fb.png"></img>
+      </a>
+  </div>
+</div>
+
+
 
 
 <!-- Bootstrap core JavaScript
@@ -163,6 +164,11 @@
 <script src="static/js/ie10-viewport-bug-workaround.js"></script>
 
 <script>
+  $(document).ready(function() {
+    var height = $('footer').height();
+    $('body').css('margin-bottom', height + 'px');
+  });
+
   $(".dropdown-menu li a").click(function() {
     $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
     $(this).parents(".dropdown").find('.btn').val($(this).data('value'));

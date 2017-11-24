@@ -28,3 +28,16 @@
   font-size: 14px;
   margin-top: 10px;
 }
+
+/*sticky footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
