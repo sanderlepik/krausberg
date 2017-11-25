@@ -41,7 +41,8 @@
     background-color: white;
     color: #256740;
     font-size: 15px;
-    border: white solid 1px;
+    border: white solid 2px;
+    font-weight: 650;
 }
 
 .carousel-intro-img {
@@ -52,7 +53,7 @@
 .form-input, .form-message-input {
   background-color: transparent;
   border-color: white;
-  border-width: 1px;
+  border-width: 2px;
   color: white;
 }
 

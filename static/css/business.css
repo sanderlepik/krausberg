@@ -27,3 +27,13 @@
   font-size: 11px;
   text-align: center;
 }
+
+@media (max-width: 990px) {
+  .services-row {
+    margin-bottom: 0px;
+  }
+
+  .group-service {
+    margin-bottom: 20px;
+  }
+}

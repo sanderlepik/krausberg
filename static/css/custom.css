@@ -20,6 +20,14 @@ span {
 }
 
 
+/*fonts*/
+.group-heading {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px !important;
+}
+
 
 
 
@@ -93,17 +101,17 @@ span {
 }
 
 #jumbo::before {
-  left: 0;
-  top: 0;
-  border-top: white solid 3px;
-  border-left: white solid 3px;
+  left: 5px;
+  top: 5px;
+  border-top: white solid 2px;
+  border-left: white solid 2px;
 }
 
 #jumbo::after {
-  bottom: 0;
-  right: 0;
-  border-bottom: white solid 3px;
-  border-right: white solid 3px;
+  bottom: 5px;
+  right: 5px;
+  border-bottom: white solid 2px;
+  border-right: white solid 2px;
 }
 
 #jumbo:hover::before {
@@ -119,7 +127,7 @@ span {
 .jumbotron-header {
   height: 350px;
   background: url('../img/jumbotron.jpg');
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -146,7 +154,7 @@ span {
 /*stripes*/
 
 .contact {
-  border-right: #2c4c3b solid 1px;
+  border-right: #2c4c3b solid 2px;
 }
 
 .my-4 {
@@ -158,13 +166,13 @@ span {
 }
 
 .borders {
-  border-left: 1px solid #2c4c3b;
-  border-right: 1px solid #2c4c3b;
+  border-left: 2px solid #2c4c3b;
+  border-right: 2px solid #2c4c3b;
 }
 
 .footer-center {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
 
 
@@ -192,6 +200,11 @@ span {
   font-size: 15px;
 }
 
+.introduction-heading-center {
+  display: flex;
+  justify-content: center;
+}
+
 .intro-row {
   justify-content: center;
 }
@@ -206,6 +219,7 @@ span {
   font-weight: 600;
   display: flex;
   justify-content: center;
+  letter-spacing: 3px;
 }
 
 .group-introduction {
@@ -271,8 +285,8 @@ span {
 }
 
 #square::before, #square::after {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   content: "";
   position: absolute;
   transition: 0.5s ease all;
@@ -281,15 +295,15 @@ span {
 #square::before {
   left: 0;
   top: 0;
-  border-top: green solid 3px;
-  border-left: green solid 3px;
+  border-top: green solid 2px;
+  border-left: green solid 2px;
 }
 
 #square::after {
   bottom: 0;
   right: 0;
-  border-bottom: green solid 3px;
-  border-right: green solid 3px;
+  border-bottom: green solid 2px;
+  border-right: green solid 2px;
 }
 
 #square:hover::after {
@@ -351,7 +365,7 @@ span {
   font-family: 'Open Sans', sans-serif;
 }
 
-.proposal-text a:hover {
+.proposal-text a:hover
   color: white;
   text-decoration: none !important font-weight: 600;
 }
@@ -366,7 +380,7 @@ span {
 }
 
 .container-job:hover {
-  background: rgba(62, 118, 62, 0.9);
+  background: rgba(44, 76, 59, 0.9);
 }
 
 .container-proposal:hover #jumbo::after {
@@ -389,17 +403,17 @@ span {
 .vacancies {
   padding: 0 !important;
   height: 100px;
-  background: #256740;
+  background: rgb(37, 103, 64);
 }
 
 .vacancies:hover {
-  background: rgba(44, 76, 59, 0.9);
+  background: rgba(37, 103, 64, 0.9);
 }
 
 .job-container {
   padding: 0;
   margin: 0 !important;
-  height: 480px;
+  height: 700px;
   background: url('../img/job_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +429,10 @@ span {
 }
 
 .job-offer-heading {
-  font-size: 25px;
+  font-size: 35px !important;
+  font-weight: 700 !important;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px !important;
 }
 
 .job-offer-text {
@@ -437,7 +454,7 @@ span {
 }
 
 .slide {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -462,7 +479,7 @@ span {
 }
 
 .carousel-inner {
-  width: 60% !important;
+  width: 80% !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -520,7 +537,7 @@ span {
 }
 
 .carousel-separator {
-  width: 70%;
+  width: 50%;
   border-top: 2px solid #2c4c3b;
 }
 
@@ -540,7 +557,7 @@ span {
   width: 100%;
   padding: 27.5px;
   margin-bottom: 15px;
-  border: #256740 solid 2.5px;
+  border: #256740 solid 2px;
 }
 
 .form-message-input {
@@ -548,7 +565,7 @@ span {
   height: 135px;
   width: 100%;
   padding: 15px;
-  border: #256740 solid 2.5px;
+  border: #256740 solid 2px;
 }
 
 .form-btn {
@@ -559,6 +576,8 @@ span {
   color: white;
   border: #256740 solid 1px;
   font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 2px;
 }
 
 
@@ -600,6 +619,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
 }
 
 .fb-img {
@@ -610,9 +631,6 @@ span {
 .footer div a {
   height: 25px;
 }
-
-
-
 
 
 /*Carousel mobile view*/
@@ -663,7 +681,12 @@ span {
 }
 
 .check-offerings {
-  width: 300px !important;
+  width: 350px !important;
+}
+
+.job-offer-header {
+  font-weight: 630;
+  letter-spacing: 1.2px;
 }
 
 
