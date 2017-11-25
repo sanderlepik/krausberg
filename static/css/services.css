@@ -26,6 +26,9 @@
   position: relative;
   top: 35%;
   transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .group-service {

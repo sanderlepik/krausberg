@@ -74,6 +74,9 @@ span {
   font-family: 'Open Sans', sans-serif;
 }
 
+.form-control {
+  padding: 0;
+}
 
 
 
