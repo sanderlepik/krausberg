@@ -22,12 +22,12 @@ span{
 }
 
 .vacancies:hover #jumbo::after {
-  right: 75px;
+  right: 65px;
   bottom: 15px;
 }
 
 .vacancies:hover #jumbo::before {
-  left: 75px;
+  left: 65px;
   top: 15px;
 }
 
@@ -48,7 +48,7 @@ span{
 
 #jumbo {
   height: 100%;
-  font-size: 15px;
+  font-size: 15px !important;
 }
 
 .col-centered {
