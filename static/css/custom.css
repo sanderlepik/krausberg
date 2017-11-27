@@ -704,6 +704,16 @@ span {
   width: 350px !important;
 }
 
+.check-offerings:hover::before {
+  left: 25px !important;
+  top: 15px;
+}
+
+.check-offerings:hover::after {
+  right: 25px !important;
+  bottom: 15px;
+}
+
 .job-offer-header {
   font-weight: 630;
   letter-spacing: 1.2px;
